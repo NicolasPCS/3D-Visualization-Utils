@@ -1,0 +1,6 @@
+*.pdf
+__pycache__
+.polyscope.ini
+imgui.ini
+Symmetry_Computation/*
+Histograms/*

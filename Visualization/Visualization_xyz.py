@@ -2,7 +2,7 @@ import numpy as np
 import polyscope as ps
 
 # Leer archivo .xyz con 6 columnas: x y z r g b
-data = np.loadtxt("/home/ncaytuir/self-sample/demo-results/airplane/targets/export_iter:10000.xyz")
+data = np.loadtxt("/home/ncaytuir/data/Datasets/Resultados_SLIDE/NewExp_ArchitectureAssessing/over_original_dataset/airplane/shapenet_psr_generated_data_2048_pts_visualization/pcd_000_label_00_airplane.xyz")
 
 positions = data[:, :3]
 normals = data[:, 3:6]

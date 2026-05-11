@@ -20,7 +20,7 @@ def farthest_point_sampling(points, n_samples):
 
 # Cargar el .pkl
 data = torch.load(
-    "/home/ncaytuir/data/Datasets/Resultados_XCube/OverHalf/plane_2025-12-19_13-22-18/result_dict_5.pkl",
+    "/home/ncaytuir/data/Datasets/Resultados_XCube/Airplane/result_dict_6.pkl",
     map_location="cpu"
 )
 

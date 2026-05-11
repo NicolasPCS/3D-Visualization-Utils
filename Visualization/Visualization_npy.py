@@ -30,7 +30,9 @@ points = np.load(file)
 #print(points.keys())
 print(points)
 print(points.shape)
-
+print("Mean:",points.mean(axis=0))
+print("STD:",points.std())
+#quit()
 # Init polyscope
 ps.init()
 
